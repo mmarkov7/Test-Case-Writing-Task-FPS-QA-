@@ -1,0 +1,34 @@
+Test Case 1: "Loan Creation page"
+
+    Use Case 1: Search for "+" sign.
+    Use Case 2: Click the "+" sign.
+    Use Case 3: When we click on "+" sign new loan should be created
+    Use Case 4: We should be redirected to loan fields
+ 
+Test Case 2:  "Loan fields"
+
+    Use Case 1: Enter a valid name.
+    Use Case 2: Enter a non alphanumerical value (should not accept)
+    Use Case 3: 39 symbols length (should accept the name)
+    Use Case 4: 40 symbols length (should accept the name)
+    Use Case 5: 41 symbols and above (should not accept the name)
+    Use Case 6: Enter a valid balance (example: 909)
+    Use Case 7: Check for "$" sign before the number
+    Use Case 8: Enter a non-valid balance (example: 1 000 000 000) should not accept.
+    Use Case 9: Enter the upper border of the balance (999 999 999) should accept.
+    Use Case 10: Enter 0 (should accept)
+    Use Case 11: Enter a non-positive number (should not accept)
+    Use Case 12: Write a valid rate (50%) should accept.
+    Use Case 13: Look for "%" behind the number.
+    Use Case 14: Enter a non-valid rate (101%)
+    Use Case 15: Minimal border rate (0%) should accept.
+    Use Case 16: Enter a non-positive rate (-50%) should not accept
+
+Test Case 3:  "Save button"
+    Use Case 1: When the user enters valid data and clicks the Save [button] the loan should be saved.
+    Use Case 2: When the user enters non-valid data and clicks the Save button the loan should be not saved.
+    Use Case 3: We should see a message "Then the loan is created successfully"
+
+If you had the chance to talk to the Business Analyst what questions would you ask to make the scenario below more clear?
+
+My Answer: I would ask the Business Analyst about more details for the "Acceptance Criteria" because it's not explained as it has to be.
